@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    font-family: "Inter", "sans-serif";
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 30px;
+    background-color: rgb(197, 190, 190);;
+}
+
+.logo, #botao_superior {
+    border: 1px solid;
+    background-color: rgb(158, 156, 156);
+}
+
+.logo, span {
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    background-color: rgb(218, 211, 211);
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+
+}
+.titulo_container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(119, 118, 118, 0.178);
+
+}
+
+.area_da_imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.button_cta {
+    width: 100px;
+}
+
+.titulo_principal {
+    background-color: rgb(189, 186, 186);
+}
+.subtitulo ,.linha_texto{
+    background-color: rgba(189, 186, 186, 0.281);
+}
+.card_session {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+.session {
+    text-transform: uppercase;
+    background-color: rgb(158, 156, 156);
+}
+
+
+.imagem_1, .imagem_2, .imagem_3 {
+    background-color: rgb(158, 156, 156);
+    
+}
+.button_session {
+    width: 100px;
+}
+
+.card {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra_lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.barra_lateral span {
+    background-color: rgba(179, 176, 176, 0.329);
+    border: 1px solid rgba(143, 140, 140, 0.164);
+}
+
+.widget_3 {
+    height: 100px;
+}
+
+.titulo_centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(179, 176, 176, 0.329);
+}
+
+.sessao_inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
