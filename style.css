@@ -44,36 +44,52 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border: 1px solid black;
     gap: 16px;
 
 }
 .titulo_container {
     display: flex;
     flex-direction: column;
+    width: 50%;
     border: 1px solid rgba(119, 118, 118, 0.178);
 
 }
+
 
 .area_da_imagem {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
     border: 1px solid black;
 }
 .button_cta {
     width: 100px;
+    margin: 5px;
+    background-color: rgb(189, 186, 186);
+    padding: 4px;
 }
 
 .titulo_principal {
     background-color: rgb(189, 186, 186);
+    margin: 5px;
 }
 .subtitulo ,.linha_texto{
     background-color: rgba(189, 186, 186, 0.281);
+    margin: 5px;
+}
+
+.secao_principal {
+    border: 1px solid black;
+    padding: 5px;
 }
 .card_session {
     display: flex;
     align-items: stretch;
     gap: 20px;
+    padding: 5px;
+    border: 1px solid rgba(117, 117, 117, 0.322);
 }
 .session {
     text-transform: uppercase;
@@ -126,5 +142,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid black;
 
 }
