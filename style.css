@@ -69,6 +69,7 @@ main {
     margin: 5px;
     background-color: rgb(189, 186, 186);
     padding: 4px;
+    font-weight: bold;
 }
 
 .titulo_principal {
@@ -83,6 +84,7 @@ main {
 .secao_principal {
     border: 1px solid black;
     padding: 5px;
+    
 }
 .card_session {
     display: flex;
@@ -91,6 +93,7 @@ main {
     padding: 5px;
     border: 1px solid rgba(117, 117, 117, 0.322);
 }
+
 .session {
     text-transform: uppercase;
     background-color: rgb(158, 156, 156);
@@ -99,10 +102,17 @@ main {
 
 .imagem_1, .imagem_2, .imagem_3 {
     background-color: rgb(158, 156, 156);
+    margin: 5px;
+    padding: 25px;
+    text-align: center;
     
 }
 .button_session {
-    width: 100px;
+    background-color: rgb(158, 156, 156);
+    padding: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: auto;
 }
 
 .card {
@@ -113,6 +123,9 @@ main {
     flex-direction: column;
 }
 
+.text_card {
+    margin: 5px;
+}
 .barra_lateral {
     display: flex;
     flex-direction: column;
@@ -121,13 +134,24 @@ main {
     padding: 5px;
 }
 
-.barra_lateral span {
-    background-color: rgba(179, 176, 176, 0.329);
-    border: 1px solid rgba(143, 140, 140, 0.164);
-}
 
+.widget_1, .widget_2, .widget_3 {
+    padding: 5px;
+    border: 1px solid rgba(143, 140, 140, 0.164);
+    background-color: rgba(179, 176, 176, 0.329)
+}
 .widget_3 {
-    height: 100px;
+    height: 70%;
+    padding: 5px;
+    border: 1px solid rgba(143, 140, 140, 0.164);
+    
+}
+.titulo_barra {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid rgba(143, 140, 140, 0.164);
+    background-color: rgba(179, 176, 176, 0.329)
 }
 
 .titulo_centralizado {
@@ -138,10 +162,57 @@ main {
     background-color: rgba(179, 176, 176, 0.329);
 }
 
+.titulo_div_centro {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.bloco_alinhado, .button {
+    margin: 5px;
+    padding: 5px;
+}
+#button {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100px;
+    background-color: rgb(189, 186, 186);
+    padding: 5px;
+    margin: 10px;
+}
 .sessao_inferior {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid black;
 
+}
+
+.sessao_logo, .sessao_links, .sessao_redes {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.logo_sobre, .links, .redes {
+    background-color: rgba(179, 176, 176, 0.329);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.coluna {
+    margin: 5px;
+    background-color: rgba(241, 239, 239, 0.658)
+}
+
+.sessao_logo {
+    width: 50%;
+}
+
+.sessao_redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
